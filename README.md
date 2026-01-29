@@ -3,7 +3,7 @@
 ## Overview
 **FLI** is a C++ program that models the dynamics of the Magnetic Pendulum, considering gravitational, magnetic, and frictional forces. It computes the **Fast Lyapunov Indicator** on the system in an attempt to quantify sensitivity to initial conditions and chaotic behavior. FLI is a numerical technique used to study chaos in dynamical systems.
 
-The code is based on the following [paper](https://github.com/Georges-ElKalache/chaos-quantative-analysis/blob/main/chaos%20in%20the%20magnetic%20pendulum_compressed.pdf).
+The code is based on the following [paper](https://github.com/gkalash/chaos-quantative-analysis/blob/main/chaos%20in%20the%20magnetic%20pendulum_compressed.pdf).
 ## Features
 - Implements the Runge-Kutta Cash-Karp method for numerical integration  
 - Uses Boost ODEInt library for solving differential equations  
@@ -20,8 +20,8 @@ Ensure you have the following installed on your system:
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/gkalash/FLI.git
-cd FLI
+git clone https://github.com/gkalash/chaos-quantative-analysis.git
+cd chaos-quantative-analysis
 ```
 
 ## Compilation & Execution
